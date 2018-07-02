@@ -495,5 +495,11 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://159.203.27.94:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
     
 </project>
